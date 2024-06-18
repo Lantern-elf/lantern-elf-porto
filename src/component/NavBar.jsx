@@ -6,7 +6,7 @@ function Navbar(){
             <div className="navSess navSess1">
                 <div className="navWrap iconLogo">
                     <img className="iconLogoWrap icon" src="/icon.png" alt="" />
-                    <div className="iconLogoWrap Logo"><b>Lantern Elf</b></div>
+                    <div className="iconLogoWrap logo"><b>Lantern Elf</b></div>
                 </div>
                 <ul className="navWrap navList">
                     <li><a href="">Home</a></li>

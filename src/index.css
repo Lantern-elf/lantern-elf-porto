@@ -55,6 +55,8 @@ main{
     text-decoration: none;
     margin-inline: 16px;
     font-size: 20px;
+    transition-duration: 0.3s;
+    transition:ease-in-out;
 }
 
 .icon{
@@ -77,4 +79,8 @@ main{
 
 .iconLogoWrap{
     margin-inline: 20px;
+}
+
+.logo{
+    cursor: context-menu;
 }
