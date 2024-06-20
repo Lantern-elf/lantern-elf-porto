@@ -14,16 +14,12 @@ body{
     background: linear-gradient(213deg, rgba(2,10,24,1) 0%, rgba(5,19,40,1) 50%, rgba(20,57,42,1) 100%);
 }
 
-main{
-    height: 100vh;    
-}
-
 .nav{
     position: sticky;
     top: 0px;
-    height: 72px;
+    height: 10vh;
     display: flex;
-    justify-content: block;
+    justify-content: space-between;
     background-color: rgba(64, 61, 61, 0.157);
     backdrop-filter: blur(40px);
 }
@@ -51,16 +47,25 @@ main{
     text-align: center;
 }
 
-.navList a{
+.navList button{
     text-decoration: none;
     margin-inline: 16px;
     font-size: 20px;
     transition-duration: 0.3s;
     transition:ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.navList li{
+    display: grid;
+    place-items: center;
 }
 
 .icon{
-    width: 72px;
+    width: 48px;
     height: auto;
 }
 
@@ -83,4 +88,13 @@ main{
 
 .logo{
     cursor: context-menu;
+}
+
+.page{
+    height: 90vh;
+}
+
+.home{
+    display: flex;
+    width: 50%;
 }

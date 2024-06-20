@@ -9,11 +9,11 @@ function Navbar(){
                     <div className="iconLogoWrap logo"><b>Lantern Elf</b></div>
                 </div>
                 <ul className="navWrap navList">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Commissions</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><button href="">Home</button></li>
+                    <li><button href="">About</button></li>
+                    <li><button href="">Skills</button></li>
+                    <li><button href="">Commissions</button></li>
+                    <li><button href="">Projects</button></li>
                 </ul>
             </div>
             <div className="navSess navSess2">

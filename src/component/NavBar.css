@@ -11,12 +11,12 @@ details {
 	}
 }
 
-a {
+button {
 	position: relative;
 	text-decoration: none;
 }
 
-a::before {
+button::before {
 content: "";
 position: absolute;
 display: block;
@@ -29,6 +29,6 @@ transform: scaleX(0);
 transition: transform 0.2s ease;
 }
 
-a:hover::before {
+button:hover::before {
 transform: scaleX(1);
 }

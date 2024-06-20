@@ -8,7 +8,14 @@ function App() {
     <>
       <Navbar />
       <main>
+        <div className='page home'>
+          <div className="homeSess homeSess1">
+            
+          </div>
+          <div className="homeSess homeSess2">
         
+          </div>
+        </div>
       </main>
     </>
   )
